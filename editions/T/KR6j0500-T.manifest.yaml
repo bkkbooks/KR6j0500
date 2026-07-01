@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0500/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0500/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說金色迦那鉢底陀羅尼經
+  identifiers:
+    krp: KR6j0500
+    cbeta: T21n1269
+    cbeta_old_id: T21n1269
+    authorityid: CA0001801
+    json_key: T1269
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1269.xml
+    old_id: T21n1269
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0500_000-T.yaml, hash: 'sha256:da696876b030482870c4de2d89957c39f8fc0a93f410b3b25c04e183ecebf54a'}
+  - {seq: 1, filename: KR6j0500_001-T.yaml, hash: 'sha256:b81a6e2b75a4d702264430bfb82daee04989c6106bebd34e702bcb4e68f780c7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0500_000-T.markers.yaml, hash: 'sha256:75055a1de9f4f3148bd71041debec7bc6d4bbbdcde1b479560c46b01ea77e8f1'}
+  - {seq: 1, role: markers, filename: assets/KR6j0500_001-T.markers.yaml, hash: 'sha256:f51bfb2f66518755a0b7413a17bf843930f518dcdc5c8fa429f485f562bf2852'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0500_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 650
+  label: 佛說金色迦那鉢底陀羅尼經
+  type: juan
+  level: 1
+hash: sha256:b35ec97b4701b1d38f01b20ea271b7ac9fec4dfe6a0f55d8f61a019c35e17f1c
