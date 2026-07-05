@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0500_000.yaml, hash: 'sha256:da696876b030482870c4de2d89957c39f8fc0a93f410b3b25c04e183ecebf54a'}
-  - {seq: 1, filename: KR6j0500_001.yaml, hash: 'sha256:69654d875e034a236fb4836159546bd072e558f5f92a14e839671928aaba24e6'}
+  - {seq: 1, filename: KR6j0500_001.yaml, hash: 'sha256:b81a6e2b75a4d702264430bfb82daee04989c6106bebd34e702bcb4e68f780c7'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0500_001.markers.yaml, hash: 'sha256:cb8c7d89e5c7613c62ba00c923677580879eddabbb4638b21c66ad344a5c7b4e'}
+  - {seq: 0, role: markers, filename: assets/KR6j0500_000.markers.yaml, hash: 'sha256:0aa49a4141eb8738744929139ad5fb18a05f8f4e495aa9aae251dc08e529ead3'}
+  - {seq: 1, role: markers, filename: assets/KR6j0500_001.markers.yaml, hash: 'sha256:58fe5a2e3489a18bb5bf67ab7f44869d9cc4875993a18ee31c49652490254201'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說金色迦那鉢底陀羅尼經
   type: juan
   level: 1
-hash: sha256:1abd9d2611df356bbca846b94e9fa59eb0d8bb0e30abba4492ec834d8863677a
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:3b6d38764ae4bd55ed6d6e7b205e5dfd46dc2080e5498bb1a519a5214ee92883
