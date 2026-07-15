@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0500/v1
 canonical_location: https://kanripo.org/bkk/KR6j0500/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說金色迦那鉢底陀羅尼經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0500_000.yaml, hash: 'sha256:da696876b030482870c4de2d89957c39f8fc0a93f410b3b25c04e183ecebf54a'}
-  - {seq: 1, filename: KR6j0500_001.yaml, hash: 'sha256:b81a6e2b75a4d702264430bfb82daee04989c6106bebd34e702bcb4e68f780c7'}
+  - {seq: 1, filename: KR6j0500_001.yaml, hash: 'sha256:1e28f744c2a97d0f0ed8f4282f7e5334a63989fc44ec90d9223eee6067324ed4'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0500_000.markers.yaml, hash: 'sha256:0aa49a4141eb8738744929139ad5fb18a05f8f4e495aa9aae251dc08e529ead3'}
-  - {seq: 1, role: markers, filename: assets/KR6j0500_001.markers.yaml, hash: 'sha256:58fe5a2e3489a18bb5bf67ab7f44869d9cc4875993a18ee31c49652490254201'}
+  - {seq: 1, role: markers, filename: assets/KR6j0500_001.markers.yaml, hash: 'sha256:1594fecf37c9fce1780b90187abc9fbfeb18a960264c1d2c21741c76d3fb2cb9'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說金色迦那鉢底陀羅尼經
   type: juan
   level: 1
-hash: sha256:3b6d38764ae4bd55ed6d6e7b205e5dfd46dc2080e5498bb1a519a5214ee92883
+hash: sha256:736c01a78914045caf8289fd14ee48661a1bdcdc8ce064c1b72eec64a8880b5d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
